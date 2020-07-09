@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  
+  <head>
+    <style type="text/css">
+      head {
+        font: 15px/1.5 Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+        background-color: black;
+      }
+  
+      /* Global */
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+      }
+  
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+  
+      .button_1 {
+        height: 38px;
+        background: black;
+        border: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #ffffff;
+      }
+  
+      .dark {
+        padding: 15px;
+        background: #35424a;
+        color: #ffffff;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+  
+      /* Header **/
+      header {
+        background: black;
+        color: #ffffff;
+        padding-top: 30px;
+        min-height: 70px;
+        border-bottom: #e8491d 3px solid;
+      }
+  
+      header a {
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+      }
+  
+      header li {
+        float: left;
+        display: inline;
+        padding: 0 20px 0 20px;
+      }
+  
+      header #branding {
+        float: left;
+      }
+  
+      header #branding h1 {
+        margin: 0;
+      }
+  
+      header nav {
+        float: right;
+        margin-top: 10px;
+      }
+  
+      header .highlight,
+      header .current a {
+        color: #e8491d;
+        font-weight: bold;
+      }
+  
+      header a:hover {
+        color: #cccccc;
+        font-weight: bold;
+      }
+    </style>
+    <meta charset="utf-8">
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Brad Traversy">
+    <title>Welcome to Abdstrong writes</title>
+  </head>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">Abdstrong world</h1>
+      </div>
+      <nav>
+        <ul>
+          <li class=""><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="sercices.html">contact</a></li>
+          <li><a href="Article.html">Article</a></li>
+          <li><a href="poem.html">poem</a></li>
+          </span>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  </head>
+  
+  <style type="text/css">
+  
+  
+  
+	/* Conatct start */
+
+        .header-title
+        {
+          text-align: center;
+          color:#00bfff;
+        }
+
+        #tip 
+        {
+            display:none;  
+        }
+
+        .fadeIn
+        {
+          animation-duration: 3s;
+        }
+
+        .form-control
+        {
+        	border-radius:0px;
+        	border:1px solid #EDEDED;
+        }
+
+        .form-control:focus
+        {
+        	border:1px solid #00bfff;
+        }
+
+        .textarea-contact
+        {
+        	resize:none; 
+        }
+
+        .btn-send
+        {
+        	border-radius: 0px;
+        	border:1px solid black;
+        	background:white;
+        	color:black; 
+        }
+
+        .btn-send:hover
+        {
+        	border:1px solid #00bfff;
+        	background:#fff;
+        	color:#00bfff;
+        	transition:background 0.5s;   
+        }
+
+        .second-portion
+        {
+        	margin-top:50px; 
+        }
+
+		        @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+		@import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+
+		.box > .icon { text-align: center; position: relative; }
+		.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background: #00bfff; vertical-align: middle; }
+		.box > .icon:hover > .image { background: #333; }
+		.box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
+		.box > .icon:hover > .image > i { color: white !important; }
+		.box > .icon > .info { margin-top: -24px; background: rgba(0, 0, 0, 0.04); border: 1px solid #e0e0e0; padding: 15px 0 10px 0; min-height:163px;}
+		.box > .icon:hover > .info { background: rgba(0, 0, 0, 0.04); border-color: #e0e0e0; color: white; }
+		.box > .icon > .info > h3.title { font-family: "Robot",sans-serif !important; font-size: 16px; color: #222; font-weight: 700; }
+		.box > .icon > .info > p { font-family: "Robot",sans-serif !important; font-size: 13px; color: #666; line-height: 1.5em; margin: 20px;}
+		.box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #222; }
+		.box > .icon > .info > .more a { font-family: "Robot",sans-serif !important; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase; text-decoration: none; }
+		.box > .icon:hover > .info > .more > a { color: #fff; padding: 6px 8px; background-color: #63B76C; }
+		.box .space { height: 30px; }
+
+		@media only screen and (max-width: 768px)
+		{
+			.contact-form
+			{
+				margin-top:25px; 
+			}
+
+			.btn-send
+			{
+				width: 100%;
+				padding:10px; 
+			}
+
+			.second-portion
+			{
+				margin-top:25px; 
+			}
+		}
+	/* Conatct end */
+  
+  
+  
+  </style>
+<body style="background-color:black; color:white;">
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+</head>
+
+
+    	
+  <div class="container second-portion">
+	<div class="row">
+        <!-- Boxes de Acoes -->
+    	<div class="col-xs-12 col-sm-6 col-lg-4">
+			<div class="box">							
+				<div class="icon">
+					<div class="image"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+					<div class="info">
+						<h3 class="title" style="background-color:white; color:black">MAIL & WEBSITE</h3>
+						<p style="background-color:white; color:black;">
+							<i class="fa fa-envelope" aria-hidden="true"></i> Abdulqawiy2019@gmail.com
+							<br>
+							<br>
+							<i class="fa fa-globe" aria-hidden="true"></i> &nbsp www.Abdstrong.com
+						</p>
+					
+					</div>
+				</div>
+				<div class="space"></div>
+			</div> 
+		</div>
+			
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+			<div class="box">							
+				<div class="icon">
+					<div class="image"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+					<div class="info">
+						<h3 class="title"style="background-color:white; color:black;">CONTACT</h3>
+    					<p style="background-color:white; color:black;">
+							<i class="fa fa-mobile" aria-hidden="true"></i> +2348121988713
+							<br>
+							<br>
+							<i class="fa fa-mobile" aria-hidden="true"></i>+2348121988713
+						</p>
+					</div>
+				</div>
+				<div class="space"></div>
+			</div> 
+		</div>
+			
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+			<div class="box">							
+				<div class="icon">
+					<div class="image"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+					<div class="info">
+						<h3 class="title"style="background-color:white; color:black;">ADDRESS</h3>
+    					<p style="background-color:white; color:black;">
+							 <i class="fa fa-map-marker" aria-hidden="true"style="background-color:white; color:black;"></i> road 29 Abule-owo,Owode Apata ibadan,OYO STATE,NIGERIA.
+						</p>
+					</div>
+				</div>
+				<div class="space"></div>
+			</div> 
+		</div>		    
+		<!-- /Boxes de Acoes -->
+		
+		<!--My Portfolio  dont Copy this -->
+	    
+	</div>
+</div>
+
+</div>
+
+
+.</body>
